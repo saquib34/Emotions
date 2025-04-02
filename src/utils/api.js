@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "http://127.0.0.1:5000"; // Change this if your Flask backend runs on a different URL
+const API_BASE_URL = "https://090a-15-206-74-169.ngrok-free.app"; // Change this if your Flask backend runs on a different URL
 
 const api = axios.create({
   baseURL: API_BASE_URL,
